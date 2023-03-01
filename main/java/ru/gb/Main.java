@@ -24,6 +24,10 @@ public class Main {
         Cat barsik = new Cat("Барсик", 5, 2);
         Cat murlo = new Cat("Мурло", 60, 1);
 
+        cats.add(murzik);
+        cats.add(barsik);
+        cats.add(murlo);
+        
         Plate plate = new Plate(300);
 
        while (true) {
